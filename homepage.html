@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        
+    }
+    li {
+      
+        float: left;
+    }
+    nav{
+        background: black;
+    }
+    li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+}
+img{
+    width: 100px;
+    margin-left: 30px;
+    transition: transform .2s
+}
+.mydiv h1{
+    text-align: center;
+}
+image:hover{
+    transform: scale(1.2);
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  
+}
+    .mydiv{
+        margin-left: 100px;
+        margin-right: 80px;
+        /* background-color:orange ; */
+        border-style: solid;
+        border-radius: 30px;
+        display: flex;
+
+    }
+
+
+    .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  border-style: solid;
+border-radius: 30px;
+margin-left: 100px;
+
+
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  padding: 2px 16px;
+}
+.chair{
+    display: flex;
+}
+</style>
+<body>
+   <nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Feedback</a></li>
+        <li><a href="case.html">CaseStudey</a></li>
+      </ul>
+   </nav>
+<br><br>
+   <!-- <video  width="320" height="240" controls>
+    <source src="video.mkv" type="video/mkv">
+   </video> -->
+  <div class="mydiv">
+      <div>
+        <img src="/chair.jpg" alt="image">
+        <h1>Chair</h1>
+      </div>
+      <div>
+        <img src="/chair.jpg" alt="image">
+        <h1>Chair</h1>
+      </div>
+      <div>
+        <img src="/chair.jpg" alt="image">
+        <h1>Chair</h1>
+      </div>
+      <div>
+        <img src="/chair.jpg" alt="image">
+        <h1>Chair</h1>
+      </div>
+      <div>
+        <img src="/chair.jpg" alt="image">
+        <h1>Chair</h1>
+      </div>
+      <div>
+        <img src="/chair.jpg" alt="image">
+        <h1>Chair</h1>
+      </div> <div>
+        <img src="/chair.jpg" alt="image">
+        <h1>Chair</h1>
+      </div> <div>
+        <img src="/chair.jpg" alt="image">
+        <h1>Chair</h1>
+      </div>
+     
+  </div><br>
+
+<div class="chair">
+  <div class="card">
+    <img src="chair.jpg" alt="Avatar" style="width:100px;">
+    
+    <div class="container">
+      <h4 style="text-align: center;"><b>New Chair</b></h4>
+      <p style="text-align: center;">Amazon</p>
+    </div>
+    
+  </div>
+  <div class="card">
+    <img src="chair.jpg" alt="Avatar" style="width:100px;">
+   
+    <div class="container">
+      <h4 style="text-align: center;"><b>New Chair</b></h4>
+      <p style="text-align: center;">Amazon</p>
+    </div>
+    
+  </div>
+  <div class="card">
+    <img src="chair.jpg" alt="Avatar" style="width:100px;">
+  
+    <div class="container">
+      <h4 style="text-align: center;"><b>New Chair</b></h4>
+      <p style="text-align: center;">Amazon</p>
+    </div>
+    
+  </div>
+</div>
+   <footer>
+    <h1>I'm Your Footer Area</h1>
+  </footer>
+</body>
+</html>
